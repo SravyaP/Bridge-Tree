@@ -27,7 +27,7 @@ public class Calendar extends Home {
 		  //Enter Calendar Name
 		  AppUrl.driver.findElement(By.id("calendarName")).sendKeys("CalAdmin");
 		  Thread.sleep(1000); 
-		  //Click on Submit button
+		  //Click on Submit button 
 		  AppUrl.driver.findElement(By.id("popSubmit")).click();
 		  Thread.sleep(1000);
 	 }
